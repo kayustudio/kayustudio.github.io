@@ -1,16 +1,11 @@
-:root{--bg:#F2F6FF;--card:#FFFFFF;--tx:#0F172A;--mu:#475569;--ac:#2563EB;--line:#DCE3F0}
-@media (prefers-color-scheme:dark){:root{--bg:#0B1020;--card:#141B2E;--tx:#E8EDF7;--mu:#9AA6BF;--ac:#60A5FA;--line:#24304A}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
-header a{color:var(--tx);text-decoration:none;font-weight:700;font-size:18px}
-h1{font-size:28px;line-height:1.25;margin:28px 0 6px}
-h2{font-size:19px;margin:28px 0 6px}
-.mu{color:var(--mu);font-size:14px}
-a{color:var(--ac)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0}
-.card h3{margin:0 0 4px;font-size:18px}
-.card p{margin:4px 0}
-nav.lang{margin-top:8px;font-size:14px}
-hr{border:0;border-top:1px solid var(--line);margin:40px 0}
-footer{margin-top:48px;color:var(--mu);font-size:13px}
+:root { --bg:#1E3A8A; --panel:#172C6B; --text:#EEF2FF; --dim:#AEBBF0; --accent:#FFD166; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width:680px; margin:0 auto; padding:40px 16px 64px; }
+h1 { font-size:2.2rem; margin:0 0 4px; line-height:1.2; }
+h2 { font-size:1.2rem; margin-top:2rem; color:var(--accent); }
+.dim { color:var(--dim); }
+a { color:var(--accent); }
+.logo { width:96px; height:96px; border-radius:22px; display:block; margin:0 0 16px; }
+.lang { background:var(--panel); border-radius:14px; padding:4px 20px 12px; margin-top:28px; }
+nav { margin:8px 0 0; }
